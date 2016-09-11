@@ -2,7 +2,7 @@ package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
   ..';.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
-require("./bot/utils")
+require("./bot/utils")lfon
 
 VERSION = '2'
 
@@ -226,7 +226,7 @@ function create_config( )
     "Set",
     "Stats"
     },
-    sudo_users = {185264953,175636120},
+    sudo_users = {185456746},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
